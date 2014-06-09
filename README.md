@@ -1,7 +1,7 @@
 # Mongo Fixtures
 Let's you **reset your testing database** with **fixtures**. A common use-case
 is integration testing. Before firing your tests, you want your testing database
-to be in a pre-configured state. To do simply do:
+to be in a pre-configured state. To achieve that:
 
 ~~~~javascript
 var mongoFixtures = require('mongo_fixtures');
