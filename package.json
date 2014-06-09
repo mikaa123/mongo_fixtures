@@ -2,6 +2,10 @@
   "name": "mongo_fixtures",
   "version": "0.0.1",
   "description": "Cleans your database and inserts your fixtures in it.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mikaa123/mongo_fixtures.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
