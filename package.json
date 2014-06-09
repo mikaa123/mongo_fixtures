@@ -1,0 +1,23 @@
+{
+  "name": "mongo_fixtures",
+  "version": "0.0.1",
+  "description": "Cleans your database and inserts your fixtures in it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "fixture",
+    "fixtures",
+    "test",
+    "ci"
+  ],
+  "author": "Michael Sokol",
+  "license": "WTFPL",
+  "dependencies": {
+    "mongoose": "~3.8.12",
+    "q": "~1.0.0"
+  }
+}
