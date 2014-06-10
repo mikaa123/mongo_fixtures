@@ -19,7 +19,7 @@
 // };
 
 var mongoose = require('mongoose'),
-	Q = require('Q');
+	Q = require('q');
 
 module.exports = function mongoFixtures(uri, fixtures, done) {
 	mongoose.connect(uri, function () {
