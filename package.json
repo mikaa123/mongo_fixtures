@@ -1,6 +1,6 @@
 {
   "name": "mongo_fixtures",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cleans your database and inserts your fixtures in it.",
   "repository": {
     "type": "git",

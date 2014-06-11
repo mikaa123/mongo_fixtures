@@ -19,7 +19,7 @@
 // };
 
 var mongoose = require('mongoose'),
-	Q = require('q');
+	q = require('q');
 
 module.exports = function mongoFixtures(uri, fixtures, done) {
 	mongoose.connect(uri, function () {
@@ -35,7 +35,7 @@ module.exports = function mongoFixtures(uri, fixtures, done) {
 				});
 			});
 
-			Q.all(createPromises).then(function (res) {
+			q.all(createPromises).then(function (res) {
 				done();
 			});
 		});
